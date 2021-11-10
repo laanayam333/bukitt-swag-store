@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-import useWishlistState from "../hooks/useWishlistState";
-import useSnipcartCount from "../hooks/useSnipcartCount";
+import useWishlistState from "@/hooks/useWishlistState";
+import useSnipcartCount from "@/hooks/useSnipcartCount";
 
 const Layout = ({ children }) => {
   const { hasItems } = useWishlistState();
@@ -37,9 +37,7 @@ const Layout = ({ children }) => {
                       role="presentation"
                     />
                   </div>
-                  <span className="text-lg font-medium">
-                    Headless Dropshipping Starter
-                  </span>
+                  <span className="text-lg font-medium">Bukitt</span>
                 </a>
               </Link>
             </div>
